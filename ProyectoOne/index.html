@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     	<style>
         
         * {
@@ -22,7 +24,21 @@
         	background-color:gray;
             }
         
+        .container {
+        	border: 2px solid blue;
+            padding:14px;
+            background-color:#85929E;
+        }
         
+        /*Aquí hacemos un Media Querie*/
+        @media screen and (max-width: 480px){
+        
+        .container {
+        	background-color: #D35400;
+        }
+        
+        }
+        /*NOTEN COMO A CAMBIAR EL ANCHO, CAMBIA EL COLOR*/
         </style>
     	
 		<title>Page Title</title>
@@ -48,8 +64,8 @@
             <div></div>
         </div>
     </section>
-    
-        <section>
+
+<section>
     	<div class="container">
         	<div></div>
             <div></div>
@@ -67,4 +83,3 @@
 
 </body>
 </html>
-
